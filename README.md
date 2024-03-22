@@ -33,34 +33,58 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
 
 
 ### ALGORITHM:
+
 STEP 1: 
+
 Importing the libraries<BR>
+
 STEP 2:
+
 Importing the dataset<BR>
+
 STEP 3:
+
 Plot the data to verify the linear separable dataset and consider only two classes<BR>
+
 STEP 4:
+
 Convert the data set to scale the data to uniform range by using Feature scaling<BR>
+
 STEP 5:
+
 Split the dataset for training and testing<BR>
+
 STEP 6:
+
 Define the input vector ‘X’ from the training dataset<BR>
+
 STEP 7:
+
 Define the desired output vector ‘Y’ scaled to +1 or -1 for two classes C1 and C2<BR>
+
 STEP 8:
+
 Assign Initial Weight vector ‘W’ as 0 as the dimension of ‘X’
+
 STEP 9:
+
 Assign the learning rate<BR>
+
 STEP 10:
+
 For ‘N ‘ iterations ,do the following:
 
 <BR>
         v(i) = w(i)*x(i)<BR>
          
         W (i+i)= W(i) + learning_rate*(y(i)-t(i))*x(i)<BR>
+
 STEP 11:
+
 Plot the error for each iteration <BR>
+
 STEP 12:
+
 Print the accuracy
 
 <BR>
